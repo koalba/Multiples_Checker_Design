@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Checker Design || Koalba</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="main">
+        <h1 class="main__h1">- Is it... ? -</h1>
+        <div class="main__container">
+            <label for="number" class="main__label">
+                <input type="number" id="number" placeholder="Insert a number" class="main__input">
+            </label>
+            <button class="main__button" onclick="checkNumber()">Check</button>
+        </div>
+        <ul class="main__ul">
+            <li class="main__li">
+                <p class="main__p">
+                    <span class="main__span multThree"></span>
+                    Multiple of 3
+                </p>
+            </li>
+            <li class="main__li">
+                <p class="main__p">
+                    <span class="main__span even"></span>
+                    Even
+                </p>
+            </li>
+            <li class="main__li">
+                <p class="main__p">
+                    <span class="main__span multSeven"></span>
+                    Multiple of 7
+                </p>
+            </li>
+        </ul>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
